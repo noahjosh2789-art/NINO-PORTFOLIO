@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="header">
+    <h1>David</h1>
+    <div class="navs">
+        <a href="index.html">Home</a>
+         <a href="services.html">Services</a>
+           <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="btn">
+        <button><a href="contact.html">Contact me</a></button>
+    </div>
+   </div>
+   <div class="hero">
+    <img src="image/pic2.jpeg" alt="">
+    <h2>David Wokoma</h2>
+    <p>A creative Freelancer & Front-end Developer</p>
+   </div>
+   <div class="service">
+    <img src="image/WhatsApp Image 2026-11-08 at 5.51.45 PM.jpeg" alt="">
+    <div class="abt">
+        <span>Discover</span>
+        <h3>About Me</h3>
+        <p>My Name is David Wokoma. I'm a Freelancer & Front-end Developer Based in Port Harcourt, Nigeria. I'm very passionate abut my work with 3 yrs</p>
+    
+    <div class="container">
+        <strong>Name: <h4>David Wokoma</h4></strong>
+        <strong>Phone: <h4>09057293448</h4></strong>
+        <strong>Experience: <h4>3 Years</h4></strong>
+        <strong>Freelance: <h4>Available</h4></strong>
+    </div>
+    <button><a href="Document/MRS. BLESSING SLIDE.pptx">Downlaod CV</button></a>
+   </div>
+   </div>
+   <div class="services">
+    <span>What I do</span>
+    <h3>My services</h3>
+    <div class="cont2">
+    <div class="cont4">
+        <h5>Creative Design</h5>
+        <p>I build Website Template</p>
+    </div>
+    
+    <div class="cont4">
+        <h5>Branding</h5>
+        <p>I create Suitable website to match your aesthetic</p>
+    </div>
+    
+    <div class="cont4">
+        <h5>User Interface</h5>
+        <p>I build Responsive websites</p>
+     </div>
+   </div>
+   </div>
+   <footer>&copy;2026 David Wokoma</footer>
+
+   <style>
+    body{
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .header{
+        padding: 10px;
+        background: red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        font-size: 30px;
+        color: white;
+    }
+    .navs{
+        display: flex;
+        gap: 20px;
+    }
+    .navs a{
+        text-decoration: none;
+        color: white;
+    }
+    .btn{
+        border: 1px solid white;
+        padding: 9px;
+        color: red;
+        border-radius: 15px;
+    }
+
+    .btn a {
+        color: red;
+        text-decoration: none;
+    }
+    .hero{
+        text-align: center;
+        padding: 20px;
+        background: rgb(151, 32, 32);
+        color: white;
+    }
+    .hero img{
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    }
+    .hero p{
+        position: relative;
+        bottom: 15px;
+    }
+    .service{
+        padding: 15px;
+        background: rgb(216, 97, 97);
+        color: white;
+        display: flex;
+    }
+    .service img {
+     width: 150px;
+     height: 200px;
+     border: none;
+     margin-top: 15px;
+    }
+    span{
+        color: blue;
+    }
+    .abt{
+        margin: 10px;
+    }
+    .abt h3{
+        position: relative;
+        bottom: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: underline;
+    }
+    .abt p{
+        position: relative;
+        bottom: 15px;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        width: 100%;
+        border: 1px solid red;
+        gap: 30px;
+    }
+    .container h4{
+        color: white;
+    }
+    strong{
+        color: red;
+    }
+    button{
+        position: relative;
+        margin-top: 10px;
+        border: none;
+        padding: 10px;
+        background: hwitesmoke;
+        color: rgb(224, 186, 20);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    button a{
+        color: purpl;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     .services{
+        margin: 0px;
+        padding: 20px;
+        background: rgb(99, 74, 74);
+        color: white;
+     }
+     .services h3{
+        text-decoration: underline;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: relative;
+        bottom: 15px;
+        }
+        .cont2{
+          position: relative;
+          bottom: 25px;  
+         display: flex;
+            text-align: left;
+        }
+        .cont4{
+        padding: 20px;
+        flex: 1;
+        background: red;
+        border: 3px solid white;
+        border-radius: 15px;
+        }
+        .cont4 h5{
+            font-size: 18px;
+            margin-bottom: 13px;
+            font-weight: bold;
+        }
+        .cont p{
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        footer{
+            text-align: center;
+            padding: 15px;
+            background-color: red;
+            margin: 0;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        @media screen and (max-width:768px) {
+            .header{
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            .service{
+                flex-direction: column;
+                text-align: center;
+            }
+            .service img{
+                width: 100%;
+                max-width: 250px;
+                height: auto;
+            }
+            .container div{
+                flex: 1 1 100%;
+            }
+            .cont2{
+                flex-direction: column;
+            }
+        }
+   </style>
+</body>
+</html>
